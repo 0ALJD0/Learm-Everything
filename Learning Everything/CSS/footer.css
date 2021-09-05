@@ -1,0 +1,67 @@
+/* footer*/
+
+.footer {
+    background: var(--color-secondary);
+    padding: 20px 80px;
+  }
+  .footer-detalle {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  /*creditos*/
+  .container-footer__grid hr {
+    /*linea footer*/
+    padding: 1px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+  }
+  .creditos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cuerpo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .creditos .columna {
+    padding: 10px 20px;
+  }
+  .creditos .columna > p {
+    margin: 0;
+  }
+  .creditos .columna > a {
+    color: #000;
+    text-decoration: none;
+  }
+  .columna a > i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .fila-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    width: 350px;
+    font-size: 13px;
+  }
+  .ayudanos form .fila-form > .box_text {
+    background-color: rgba(144, 129, 247, 0.8);
+    border: none;
+    width: 200px;
+    padding: 6px;
+  }
+  .fila-boton {
+    padding-top: 5px;
+    text-align: right;
+  }
+  .ayudanos form .fila-boton .send-msm {
+    background-color: var(--color-blanco);
+    border: none;
+    padding: 3px 12px;
+  }

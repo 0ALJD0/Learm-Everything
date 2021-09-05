@@ -1,0 +1,78 @@
+/*HEADER PRINCIPAL*/
+header {
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 15px;
+  }
+  .container-header {
+    display: flex;
+    padding: 0 60px;
+  }
+  .container-header .title-container {
+    flex: 0 1 auto;
+    line-height: 50px;
+  }
+  .container-header .LOGO-Empresa {
+    flex: 1 1 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .container-header .botones {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+  }
+  .container-header .botones > a {
+    text-decoration: none;
+    padding: 6px 30px;
+    color: #ffff;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: var(--color-bluberry);
+  }
+  .container-header .botones > a:hover {
+    background-color: var(--color-bluberry-hover);
+  }
+  .principal{
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+   .button > a {
+    text-decoration: none;
+    padding: 6px 30px;
+    color: #ffff;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: var(--color-bluberry);
+  }
+  .button > a:hover {
+    background-color: var(--color-bluberry-hover);
+  }
+  
+  
+  
+  /*NAVEGACION*/
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #C3BBFA;
+  }
+  .nav__items {
+    text-decoration: none;
+    color: var(--negro);
+    padding: 10px 30px 4px 30px;
+  }
+  .nav__items.page_actual {
+    border-bottom: 6px solid var(--color-blanco);
+  }
+  .nav__items:hover {
+    color: #ffff;
+    background-color: var(--color-secondary-hover);
+  }

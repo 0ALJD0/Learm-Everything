@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+:root {
+  --background: linear-gradient(135deg. #667eea7e 0%, #764ba298 100%);
+  --color-primary: #667eea;
+  --color-secondary: #C3BBFA;
+  --color-secondary-hover: #aea3f7;
+  --boton-padding: 20px 40px;
+  --color-blanco: #ffff;
+  --color-bluberry: #7278f7; 
+  --color-bluberry-hover: #5f67fa;
+  --negro: #000;
+}
+
+
+/*MAIN*/
+
+
+.container-slider ul li > img {
+  width: 100%;
+}
+.presentacion {
+  text-align: center;
+}
+.presentacion_hotel2 {
+  width: 350px;
+  height: 350px;
+  border-radius: 20%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.boton3 {
+  padding: 10px 15px;
+  margin: 1px;
+  color: rgb(250, 250, 250);
+  background: #5f67fa;
+  border-radius: 20px;
+  float: right;
+}
+
+.about__ {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 80px;
+  justify-items: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+.about__ig {
+  text-align: center;
+}
+.about__ig--left {
+  text-align: left;
+}
+.about__ig__ {
+  text-align: center;
+}
+.about__ig__--left {
+  text-align: left;
+}
+.about__pivture__ {
+  max-width: 80%;
+
+}
+
+.about__text_{
+  text-align: left;
+}
+.about {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 80px;
+  justify-items: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.about__pivture {
+  max-width: 100%;
+}
+.about__parrafo {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.about__pivture1 {
+  max-width: 100%;
+}
+.about__parrafo__ {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+
+
+
+/*--TARJETA---*/
+.formulario-tarjet input,
+.formulario-tarjet select {
+  margin: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  width: 200px;
+  font-size: 18px;
+}
+.formulario-tarjet input {
+  margin-bottom: 20px;
+}
+.formulario-tarjet .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+.formulario-tarjet .expira {
+  width: 18%;
+}
+.metod-pago img {
+  margin: 20px 0px 0px 21px;
+}
+.formulario-tarjet .cvv {
+  min-width: 60%;
+}
+.formulario-tarjet .grupo-select {
+  width: 100%;
+  margin-right: 15px;
+}
+.formulario-tarjet .btn-tarjet {
+  padding: 10px 15px;
+  margin: 30px;
+  color: rgb(250, 250, 250);
+  background: #7278f7;
+  border-radius: 20px;
+  float: right;
+}
+
+
+
+/*Botones cursos, ofrecemos, inscribete*/
+.cuerpo a {
+  padding: 10px 15px;
+  margin: 30px;
+  color: rgb(250, 250, 250);
+  background: #7278f7;
+  border-radius: 20px;
+}
+
+
+/*icono de cerrar seccion*/
+
+.bot-cerrar{
+  display: flex;
+  align-items: center;
+  color: var(--color-bluberry-hover);
+  
+}
+.ico-cerrar{
+  color: var(--color-bluberry-hover);
+  width: 15px;
+  height: 15px;
+}
+.container-main {
+  padding: 20px 80px;
+}

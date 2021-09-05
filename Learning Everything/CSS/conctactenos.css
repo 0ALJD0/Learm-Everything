@@ -1,0 +1,99 @@
+/*contactanos*/
+.subtitle {
+    color: var(--negro);
+    font-weight: normal;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+  }
+  .subtitle1 {
+    color: var(--negro);
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .footer-detalle .contactos .description_contactos {
+    font-size: 13px;
+    margin-top: 8px;
+  }
+/*contactenos*/
+.about__ {
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+    background: #f2f2f2;
+  }
+  .about__ig__ {
+    text-align: center;
+  }
+  .about__ig__--left {
+    text-align: left;
+  }
+  .about__pivture__ {
+    max-width: 80%;
+  }
+
+  .about__parrafo__ {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+.dire {
+    display: flex;
+  }
+  .conteneer {
+    padding: 20px 80px;
+    background-color: #f2f2f2;
+  }
+  .img_contact{
+    max-width: 50%;
+  }
+  .confi {
+    color: green;
+  }
+  
+  .cance {
+    color: red;
+  }
+  .contener3 {
+    padding: 20px 80px;
+    background-color: rgb(203, 204, 204);
+  }
+  .contener31 {
+    margin: 30px;
+    width: 1150px;
+    height: 650px;
+    border: 1px solid;
+    background-color: rgb(203, 204, 204);
+  }
+  .sub3 {
+    margin-left: 30px;
+    font-size: 35px;
+  }
+  .sub-contener3 img {
+    width: 200px;
+    float: left;
+    margin: 30px;
+  }
+  
+  .sub-contener3 .hues {
+    float: right;
+    min-width: 50%;
+  }
+  .contener3 .det {
+    margin: 0px 0px 0px 260px;
+  }
+  .sub-contener3 .de {
+    margin: 5px 0px 0px 260px;
+  }
+  .sub-contener3 .de1 {
+    margin: 15px 0px 0px 260px;
+  }
+  
+  .sub-contener3 .page {
+    float: right;
+    min-width: 25%;
+  }
