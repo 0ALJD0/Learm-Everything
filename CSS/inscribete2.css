@@ -1,0 +1,25 @@
+/* inscribete2*/
+
+  .contener {
+    margin: 30px;
+    width: 1050px;
+    height: 700px;
+    border: 1px solid;
+    background-color: lightslategrey;
+  }
+  .sub {
+    margin-left: 30px;
+    font-size: 35px;
+  }
+  .pag {
+    margin-left: 25px;
+    width: 450px;
+    height: 100px;
+    border: 1px solid lightsteelblue;
+  }
+  .boton {
+    margin: auto;
+    margin-left: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+  }
